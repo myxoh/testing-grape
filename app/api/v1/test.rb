@@ -3,6 +3,6 @@ class API::V1::Test < Grape::API
   helpers APIHelpers
 
   get 'test' do
-    { json: test_method}
+    test_method
   end
 end
