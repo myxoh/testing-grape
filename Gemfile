@@ -9,7 +9,8 @@ gem 'rails', '~> 5.2.1'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
-
+gem 'kaminari'
+gem 'grape-kaminari', :github => 'joshmn/grape-kaminari'
 gem 'grape', github: 'ruby-grape/grape', branch: 'master'
 gem 'grape_logging'
 gem 'grape-swagger', github: 'ruby-grape/grape-swagger', branch: 'master'
@@ -24,7 +25,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+# Build JSON Apis with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

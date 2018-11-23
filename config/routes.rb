@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  mount API::V1::Core => "/api"
+  mount V1::Core => "/api"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

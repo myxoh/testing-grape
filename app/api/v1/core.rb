@@ -1,11 +1,10 @@
-class API::V1::Core < Grape::API
-  include API::V1::Defaults
-  helpers APIHelpers
-  
+class V1::Core < Grape::API
+  include V1::Defaults
+
   add_swagger_documentation
 
   desc 'api'
   version 'v1' do
-    mount API::V1::Test
+    mount V1::Test
   end
 end

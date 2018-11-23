@@ -1,6 +1,4 @@
-module API
-  module V1
-    module Defaults
-    end
+module V1
+  module Defaults
   end
 end
